@@ -1,5 +1,5 @@
-Bannerss App
-============
+Banners App
+===========
 
 ## Description
 Easily banner management using the power of the [Joomla](http://www.joomla.org/ "Joomla! The CMS Trusted By Millions for their Websites") component [ZOO](http://yootheme.com/zoo/ "ZOO A flexible and powerful content application builder to manage your content").
