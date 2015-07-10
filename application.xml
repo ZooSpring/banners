@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<application>
+	<name>Banners</name>
+	<group>banners</group>
+	<version>3.3.6</version>
+	<creationDate>July 2015</creationDate>
+	<author>Lech H. Conde</author>
+	<authorEmail>lech@mavels.net</authorEmail>
+	<authorUrl>http://www.mavels.net</authorUrl>
+    <copyright>Copyright (C) 2014 All rights reserved</copyright>
+    <license><![CDATA[
+			http://www.gnu.org/licenses/gpl.html GNU/GPL
+			]]>
+	</license>
+	<description><![CDATA[
+				This app is developed by Lech H. Conde based on YT Blog App.
+				]]>
+	</description>
+	<params group="application-config">
+		<param name="items_per_page" type="text" size="3" default="15" label="Items Per Page" description="Number of items to show on a page" />
+		<param name="item_order" type="zooitemorder" default="_itemname" label="Item Order" description="ITEM_ORDER" />
+		<param name="show_feed_link" type="zoofeed" default="1" label="Show Feed Link" description="DISPLAY_FEED_LINKS" />
+	</params>
+	<params group="category-config">
+		<param name="items_per_page" type="textglobal" size="3" default="15" label="Items Per Page" description="Number of items to show on a page" />
+		<param name="item_order" type="zooitemorderglobal" default="_itemname" label="Item Order" description="ITEM_ORDER" />
+		<param name="show_feed_link" type="zoofeedglobal" default="1" label="Show Feed Link" description="DISPLAY_FEED_LINKS" />
+	</params>
+	<params group="application-content">
+		<param name="title" type="text" label="Title" description="Set a frontpage title." />
+		<param name="subtitle" type="text" label="Subtitle" description="Set a subtitle." />
+		<param name="image" type="zooimage" label="Image" description="Choose a frontpage image." />
+	</params>
+	<params group="category-content">
+		<param name="subtitle" type="text" label="Sub Headline" description="Set a subtitle." />
+		<param name="image" type="zooimage" label="Image" description="Choose a category image." />
+	</params>
+	<params group="item-content">
+	</params>
+</application>

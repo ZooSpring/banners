@@ -27,7 +27,7 @@ Easily banner management using the power of the [Joomla](http://www.joomla.org/ 
 
 ## Developers
 * YOOtheme Team <http://www.yootheme.com>
-* Lech H. Conde <lech [at] mavels.net>
+* Lech H. Conde <lech@mavels.net>
 
 ## Changelog
 * Versión 1.0.0, July 2015
